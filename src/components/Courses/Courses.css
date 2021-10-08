@@ -1,0 +1,14 @@
+.courses-container {
+    margin-top: 120px !important;
+    margin-bottom: 150px;
+}
+.heading {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+hr {
+    margin-top: 0;
+    margin-bottom: 30px;
+    border: 1px solid #6047ec;
+}

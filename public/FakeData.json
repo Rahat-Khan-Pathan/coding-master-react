@@ -1,0 +1,92 @@
+[
+    {
+        "id": "a",
+        "name": "JavaScript Basics for Beginners",
+        "instructor": "Mosh Hamedani",
+        "price": 103.99,
+        "img": "https://cyberhoot.com/wp-content/uploads/2020/07/Free-Courses-to-learn-JavaScript-1024x576.jpg",
+        "stars": 4.5,
+        "rated": 14022
+    },
+    {
+        "id": "b",
+        "name": "C# For Beginners: Learn C# Programming From Scratch",
+        "instructor": "Denis Panjuta",
+        "price": 89.99,
+        "img": "https://peakup.org/wp-content/uploads/2018/12/1.jpg",
+        "stars": 4.1,
+        "rated": 114
+    },
+    {
+        "id": "c",
+        "name": "Modern React with Redux",
+        "instructor": "Stephen Grider",
+        "price": 57.99,
+        "img": "https://cdn.educba.com/academy/wp-content/uploads/2020/05/React-Redux-Connect.jpg.webp",
+        "stars": 4.7,
+        "rated": 71174
+    },
+    {
+        "id": "d",
+        "name": "Mern Stack Complete Tutorial",
+        "instructor": "Joost Bijlsma",
+        "price": 89.99,
+        "img": "https://www.rlogical.com/wp-content/uploads/2020/12/MERN-Stack-considered-the-Best-for-Developing-Web-Apps.png",
+        "stars": 4.9,
+        "rated": 82
+    },
+    {
+        "id": "e",
+        "name": "Learn Advanced C++ Programming",
+        "instructor": "John Purcell",
+        "price": 134.99,
+        "img": "https://www.educative.io/cdn-cgi/image/f=auto,fit=contain,w=1200/api/page/5393602882568192/image/download/6038586442907648",
+        "stars": 4.5,
+        "rated": 7003
+    },
+    {
+        "id": "f",
+        "name": "Build Responsive Real-World Websites with HTML and CSS",
+        "instructor": "Jonas Schmedtmann",
+        "price": 99.99,
+        "img": "https://media.onlinecoursebay.com/2019/03/26003354/1117604_10ad_7.jpg",
+        "stars": 4.7,
+        "rated": 61579
+    },
+    {
+        "id": "g",
+        "name": "Learn C++ Game Development",
+        "instructor": "Stephen Ulibarri",
+        "price": 110.99,
+        "img": "https://coursemarks.com/wp-content/uploads/2020/11/1741584_7782_2.jpg",
+        "stars": 4.3,
+        "rated": 2020
+    },
+    {
+        "id": "h",
+        "name": "Complete C# Masterclass",
+        "instructor": "Denis Panjuta",
+        "price": 118.99,
+        "img": "https://www.assignmentexpert.com/blog/wp-content/uploads/2011/01/csharp-min_buiizq1.png",
+        "stars": 4.5,
+        "rated": 14834
+    },
+    {
+        "id": "i",
+        "name": "The Modern Javascript Bootcamp Course (2021)",
+        "instructor": "Colt Steele, Stephen Grider",
+        "price": 140.99,
+        "img": "https://i.udemycdn.com/course/750x422/2508942_11d3.jpg",
+        "stars": 4.7,
+        "rated": 7871
+    },
+    {
+        "id": "j",
+        "name": "Modern HTML & CSS From The Beginning (Including Sass)",
+        "instructor": "Brad Traversy",
+        "price": 112.99,
+        "img": "https://www.lambdatest.com/blog/wp-content/uploads/2018/11/JPG-2.jpg",
+        "stars": 4.8,
+        "rated": 20135
+    }
+]

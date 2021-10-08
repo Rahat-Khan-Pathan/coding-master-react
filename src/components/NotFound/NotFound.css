@@ -1,0 +1,11 @@
+/* Not found component styles */
+.error-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.error-container img {
+    width: 50%;
+}

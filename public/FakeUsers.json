@@ -1,0 +1,110 @@
+[
+    {
+      "_id": "614f548cdc3703d5dd70ec2f",
+      "salary": 12000,
+      "picture": "https://randomuser.me/api/portraits/women/2.jpg",
+      "name": "Lolita Conrad",
+      "company": "GOGOL",
+      "email": "lolita@gogol.com",
+      "phone": "(887) 424-2770"
+    },
+    {
+      "_id": "614f548c9734fc04977d6fc6",
+      "salary": 11900,
+      "picture": "https://randomuser.me/api/portraits/men/7.jpg",
+      "name": "Porter Marshall",
+      "company": "PATHWAYS",
+      "email": "porter@pathways.com",
+      "phone": "(973) 530-2707"
+    },
+    {
+      "_id": "614f548cdc9af6ed10fa0506",
+      "salary": 11200,
+      "picture": "https://randomuser.me/api/portraits/men/9.jpg",
+      "name": "Bishop Roach",
+      "company": "PROFLEX",
+      "email": "bishop@proflex.com",
+      "phone": "(989) 507-3826"
+    },
+    {
+      "_id": "614f548cd7e091cd45fc41be",
+      "salary": 10000,
+      "picture": "https://randomuser.me/api/portraits/women/3.jpg",
+      "name": "Francine Ferguson",
+      "company": "CABLAM",
+      "email": "francine@cablam.com",
+      "phone": "(874) 496-3847"
+    },
+    {
+      "_id": "614f548c32bce2821bf1e168",
+      "salary": 14500,
+      "picture": "https://randomuser.me/api/portraits/men/11.jpg",
+      "name": "Graham Dale",
+      "company": "ANOCHA",
+      "email": "graham@anocha.com",
+      "phone": "(984) 461-2451"
+    },
+    {
+      "_id": "614f548c4ba9134c67bf57e5",
+      "salary": 21000,
+      "picture": "https://randomuser.me/api/portraits/women/51.jpg",
+      "name": "Esperanza Glass",
+      "company": "EPLODE",
+      "email": "esperanza@eplode.com",
+      "phone": "(915) 493-3265"
+    },
+    {
+      "_id": "614f548c81e04eefeda1d69c",
+      "salary": 19000,
+      "picture": "https://randomuser.me/api/portraits/men/14.jpg",
+      "name": "Polly Mcleod",
+      "company": "IMAGINART",
+      "email": "polly@imaginart.com",
+      "phone": "(835) 418-3522"
+    },
+    {
+      "_id": "614f548c4ab6ff7f1ea21d8c",
+      "salary": 14500,
+      "picture": "https://randomuser.me/api/portraits/men/18.jpg",
+      "name": "Bethany Sharp",
+      "company": "QUINEX",
+      "email": "bethany@quinex.com",
+      "phone": "(938) 503-3840"
+    },
+    {
+      "_id": "614f548c951a45d73584d9ef",
+      "salary": 18000,
+      "picture": "https://randomuser.me/api/portraits/men/19.jpg",
+      "name": "Raquel Cox",
+      "company": "VIAGRAND",
+      "email": "raquel@viagrand.com",
+      "phone": "(860) 562-3043"
+    },
+    {
+      "_id": "614f548c79ba1831c10abfa6",
+      "salary": 17000,
+      "picture": "https://randomuser.me/api/portraits/women/63.jpg",
+      "name": "Imogene Marquez",
+      "company": "AQUAMATE",
+      "email": "imogene@aquamate.com",
+      "phone": "(860) 430-3602"
+    },
+    {
+      "_id": "614f548c9b819ea1b38a2243",
+      "salary": 27000,
+      "picture": "https://randomuser.me/api/portraits/men/21.jpg",
+      "name": "Robles Charles",
+      "company": "ZORROMOP",
+      "email": "robles@zorromop.com",
+      "phone": "(915) 437-3498"
+    },
+    {
+      "_id": "614f548c146a4aba5415908d",
+      "salary": 17900,
+      "picture": "https://randomuser.me/api/portraits/men/22.jpg",
+      "name": "Ruby Donovan",
+      "company": "GEEKFARM",
+      "email": "rubydon@geekfarm.com",
+      "phone": "(866) 482-3961"
+    }
+  ]

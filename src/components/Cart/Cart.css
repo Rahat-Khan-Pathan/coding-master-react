@@ -1,0 +1,11 @@
+/* Cart Component styles  */
+.cart-container {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.no-course {
+    background-color: #212529;
+    color: lightgray;
+    border-radius: 10px;
+    padding: 10px 15px;
+}

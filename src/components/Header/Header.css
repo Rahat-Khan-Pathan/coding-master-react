@@ -1,0 +1,25 @@
+/* Header component styles  */
+.top-banner {
+    margin-top: 120px;
+    min-height: 65vh;
+}
+.top {
+    min-height: 65vh;
+}
+.type {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.welcome {
+    font-size: 40px;
+    font-weight: 600;
+}
+.brand {
+    color: #6c63ff;
+    font-weight: 700;
+}
+.welcome-bottom {
+    font-size: 17px;
+    color: gray;
+    font-weight: 500;
+}
