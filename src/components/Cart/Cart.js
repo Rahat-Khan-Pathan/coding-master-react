@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from "react";
+import { connect } from "react-redux";
 import UseFakeData from "../../hooks/FakeData";
+import { removeFromCart } from "../../redux/actions/cartActions";
 import { getDB, removerFromDB } from "../../utilities/LocalStorage";
 import SingleCart from "../SingleCart/SingleCart";
 import Summary from "../Summary/Summary";
 import "./Cart.css";
 
-const Cart = () => {
+const Cart = (props) => {
   const fakeData = UseFakeData();         // Getting fake course data
-  const itemsDB = getDB();                // Getting items stored in local storage
-  const itemsID = Object.keys(itemsDB);   // Getting keys from items
+  const itemsID = props.cart;   // Getting keys from items
   const [cart, setCart] = useState([]);
-
   // Getting selected courses from local storage 
   useEffect(()=> {
     if(fakeData.length ) {
@@ -21,23 +21,21 @@ const Cart = () => {
 
   // Course remove handler
   const removeHandler = id => {
-    removerFromDB(id);
+    props.removeFromCart(id);
     const newCart = cart.filter(ct => ct.id !== id);
     setCart(newCart);
   }
   
   return (
     <div className="cart-container container">
-      <div className="row px-2">
-        <div className="col-9">
-          <div className="row row-cols-1 row-cols-md-3 g-0 justify-content-center">
+      <div className="row px-2 cart">
+        <div className="col-md-9">
             { (cart.length===0)? <h4 className="text-center no-course">No Course Selected</h4> : 
             cart.map((singleCart) => (
               <SingleCart key={singleCart.id} data={singleCart} removeHandler={removeHandler}></SingleCart>
             ))}
-          </div>
         </div>
-        <div className="col-3">
+        <div className="col-md-3">
           <Summary cart={cart}></Summary>
         </div>
       </div>
@@ -45,4 +43,10 @@ const Cart = () => {
   );
 };
 
-export default Cart;
+const mapStateToProps = state=> {
+  return {cart:state.cart}
+}
+const mapDispatchToProps = {
+  removeFromCart:removeFromCart
+}
+export default connect(mapStateToProps,mapDispatchToProps)(Cart);

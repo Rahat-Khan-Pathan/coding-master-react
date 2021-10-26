@@ -2,6 +2,7 @@
 .cart-container {
     margin-top: 150px;
     margin-bottom: 150px;
+    min-height: 80vh;
 }
 .no-course {
     background-color: #212529;

@@ -26,7 +26,7 @@ const TopBanner = () => {
 
   return (
     <div className="container top-banner">
-      <div className="row row-cols-1 row-cols-md-2 px-3 top">
+      <div className="row row-cols-1 row-cols-md-2 banner px-3 top">
         <div className="col d-flex justify-content-begin align-items-center">
           <div>
             <h1 className="welcome mb-4">Welcome To <span className="brand">Coding Master</span> </h1>

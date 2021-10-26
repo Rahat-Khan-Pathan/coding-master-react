@@ -1,6 +1,7 @@
 .courses-container {
     margin-top: 120px !important;
     margin-bottom: 150px;
+    min-height: 100vh;
 }
 .heading {
     text-align: center;

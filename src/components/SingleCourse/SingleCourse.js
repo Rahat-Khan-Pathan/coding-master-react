@@ -1,19 +1,19 @@
 import React from "react";
 import Rating from "react-rating";
-import { addToCart } from "../../utilities/LocalStorage";
-import './SingleCourse.css';
+import { connect } from "react-redux";
+import { addToCart } from "../../redux/actions/cartActions";
+import "./SingleCourse.css";
 
-const SingleService = (props) => {
-  const { id,name, img, instructor, price, stars, rated } = props.course;
-
+const SingleCourse = (props) => {
+  const { id, name, img, instructor, price, stars, rated } = props.course;
   // add function to add course id to local storage and show modal for confirmation
-  const add = ()=> {
-    addToCart(id);
-    document.getElementById('modal-btn').click();
+  const add = () => {
+    props.addToCart(id);
+    document.getElementById("modal-btn").click();
     setTimeout(() => {
-      document.getElementById('modal-close').click();
+      document.getElementById("modal-close").click();
     }, 1000);
-  }
+  };
 
   return (
     <div className="col">
@@ -29,15 +29,29 @@ const SingleService = (props) => {
               fullSymbol="fa fa-star star"
               readonly
               initialRating={stars}
-            />
-            {' '} ({rated})
+            />{" "}
+            ({rated})
           </div>
           <p className="card-text price">${price}</p>
-          <button className="btn btn-outline-dark mt-3" onClick={add}>ADD TO CART <i className="fas fa-arrow-right"></i> </button>
+          {props.cart.includes(id) ? (
+            <button disabled className="btn btn-outline-dark mt-3">
+            ADDED <i className="fas fa-check-circle"></i>{" "}
+          </button>
+          ) : (
+            <button className="btn btn-outline-dark mt-3" onClick={add}>
+              ADD TO CART <i className="fas fa-arrow-right"></i>{" "}
+            </button>
+          )}
         </div>
       </div>
     </div>
   );
 };
 
-export default SingleService;
+const mapStateToProps = (state) => {
+  return { cart: state.cart };
+};
+const mapDispatchToProps = {
+  addToCart: addToCart,
+};
+export default connect(mapStateToProps, mapDispatchToProps)(SingleCourse);

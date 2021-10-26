@@ -23,3 +23,32 @@
     color: gray;
     font-weight: 500;
 }
+@media only screen and (max-width:767px) {
+    .banner {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+    .welcome,.type {
+        font-size: 22px;
+    }
+    .welcome-bottom {
+        font-size: 15px;
+    }
+    .about-div {
+        padding: 20px 30px !important;
+    }
+    .about {
+        flex-direction: column-reverse;
+    }
+    .cart {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .cart-img {
+        border-top-right-radius: 15px !important;
+        border-bottom-right-radius: 15px !important;
+    }
+    .summary-box {
+        margin-bottom: 20px;
+    }
+}
